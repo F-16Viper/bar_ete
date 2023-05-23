@@ -3,9 +3,7 @@ $('.dropdown').click(function(e){
     $('.nav-dropdown').toggle();
   });
   
-  $('html').click(function(){
-    $('.nav-dropdown').hide();
-  })
+
   
   $('#nav-toggle').on('click', function() {
     this.classList.toggle('active');

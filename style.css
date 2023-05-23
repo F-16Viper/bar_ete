@@ -42,7 +42,9 @@ header {
     top: 248px;
     left: 88px;
     cursor: pointer;
+    text-align: center;
   }
+
 
   .h4 {
     color: #252422;
@@ -116,13 +118,7 @@ a {
     font-size: larger;
 }
 
-.nav-dropdown {
-  position: absolute;
-  z-index: 1;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-  display: none; 
-  background-color: rgb(77, 1, 77); 
-}
+
 
 
 .nav-mobile {
@@ -743,12 +739,17 @@ footer {
         margin-top: -160px;
     }
 
+    .main2 {
+      margin-top: -121px;
+    }
+
     .card {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .mainh2 {
         font-size: 25px;
+        text-align: center;
     }
 
     .info_site {
@@ -766,6 +767,7 @@ footer {
 
     .position_pg p {
         margin-top: 20px;
+        font-size: 14px;
     }
 
     .div_principale {
@@ -774,5 +776,35 @@ footer {
 
     .margin_top {
         margin-bottom: 78px;
+    }
+
+    .pagination {
+      margin-top: 80px;
+    }
+
+    h3 {
+      position: absolute;
+      top: 248px;
+      left: 74px;
+    }
+
+    .rsh3 {
+      position: absolute;
+      top: 248px;
+      left: 89px;
+    }
+
+    .rsh2 {
+      position: absolute;
+      top: 248px;
+      left: 75px;
+    }
+
+    .rsp {
+      height: 30px;
+    }
+
+    h1, .p {
+      text-align: center;
     }
 }
