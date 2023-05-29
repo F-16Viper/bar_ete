@@ -621,10 +621,17 @@ main {
   margin-bottom: 30px;
 }
 
-.info_site p {
+ .p2 {
     font-size: 15px;
     text-align: center;
     width: 80%;
+}
+
+.align {
+  line-height: 2.5;
+  font-size: 15px;
+  text-align: center;
+  width: 80%;
 }
 
 .position_logos {
@@ -648,6 +655,7 @@ main {
     justify-content: center;
     align-items: center;
   }
+
 
   .position_pg {
     background-color: rgb(221, 218, 218);
@@ -774,7 +782,7 @@ footer {
     }
 
     .info_site {
-        line-height: 2;
+        line-height: 3;
     }
 
     .img_section {
