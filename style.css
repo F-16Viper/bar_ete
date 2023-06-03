@@ -601,6 +601,13 @@ main {
     text-transform: uppercase;
   }
 
+.puff_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
 
 .mainh2 {
     display: flex;
@@ -851,5 +858,10 @@ footer {
 
     .position_logos {
       flex-direction: column;
+    }
+
+    .puff_info {
+      flex-direction: column;
+      margin-top: -130px;
     }
 }
