@@ -60,6 +60,14 @@ header {
     cursor: pointer;
   }
 
+  .h42 {
+    color: #252422;
+    position: absolute;
+    top: 248px;
+    left: 34px;
+    cursor: pointer;
+  }
+
 .nav-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -554,17 +562,18 @@ a {
 }
 
 .title {
-    position: relative;
-    top: 250px;
-    left: 240px;
-    color: white;
-    font-size: xx-large;
+  position: relative;
+  top: 250px;
+  left: 37px;
+  color: white;
+  font-size: xx-large;
 }
 
 main {
     display: flex;
 
     justify-content: space-evenly;
+    gap: 40px;
     align-items: center;
     padding: 50px;
     font-family: "Roboto", sans-serif;
@@ -766,7 +775,8 @@ footer {
 
     .title {
         position: relative;
-        left: 15px;
+        left: 2px;
+        top: 168px;
         text-align: center;
     }
 
